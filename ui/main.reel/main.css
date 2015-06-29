@@ -1,0 +1,83 @@
+html {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: black;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(../../assets/image/moontunes-bg.jpg);
+    -webkit-background-size: auto 100%;
+}
+.Main {
+    position: absolute;
+    -webkit-transform-style: preserve-3d;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.flow-Ribbon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.panel {
+    width: 344px;
+    height: 463px;
+    margin-left: -172px;
+    margin-top: -231px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+.Main:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url(../../assets/image/moontunes-top.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: auto 100%;
+    pointer-events: none;
+}
+.flow-Ribbon > div:before {
+    content: "";
+    position: absolute;
+    background-image: url(../../assets/image/moontunes-moon.jpg);
+    width: 372px;
+    height: 372px;
+    top: 50%;
+    left: 50%;
+    margin-left: -186px;
+    margin-top: -186px;
+    border-radius: 200px;
+    -webkit-transform: scale3d(3.6,3.6,3.6);
+    background-color: #86A4A9;
+    -webkit-box-shadow: inset 0 0 20px 4px #86A4A9, 0 0 20px 4px #86A4A9, 0 0 100px 20px #86A4A9;
+    pointer-events: none;
+}
+.logo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    padding: 0 6px 0 5px;
+    margin-left: -161px;
+    width: 302px;
+    height: 85px;
+    background: rgba(0,0,0,.65);
+    background-image: url(../../assets/image/moontunes-logo.png);
+    background-repeat: no-repeat;
+    background-position: 2px 3px;
+    z-index: 2;
+    border-radius: 0 0 10px 10px;
+    -webkit-box-shadow: 0 0 100px rgba(200,0,0,.7);
+    opacity: .9;
+}

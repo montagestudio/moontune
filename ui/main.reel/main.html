@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>MoonTunes</title>
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <script type="text/montage-serialization">
+    {       
+        "owner": {
+            "properties": {
+                "element": {"#": "main"},
+                "flowRibbon": {"@": "flow"}
+            }
+        },
+        "flow": {
+            "prototype": "montage/ui/flow.reel",
+            "properties": {
+                "element": {"#": "flow"},
+                "objects": [
+                    "assets/image/posters/0.jpg",
+                    "assets/image/posters/1.jpg",
+                    "assets/image/posters/2.jpg",
+                    "assets/image/posters/3.jpg",
+                    "assets/image/posters/4.jpg",
+                    "assets/image/posters/5.jpg",
+                    "assets/image/posters/6.jpg",
+                    "assets/image/posters/7.jpg",
+                    "assets/image/posters/8.jpg",
+                    "assets/image/posters/9.jpg",
+                    "assets/image/posters/10.jpg",
+                    "assets/image/posters/11.jpg",
+                    "assets/image/posters/12.jpg",
+                    "assets/image/posters/13.jpg",
+                    "assets/image/posters/14.jpg",
+                    "assets/image/posters/15.jpg",
+                    "assets/image/posters/16.jpg",
+                    "assets/image/posters/17.jpg",
+                    "assets/image/posters/18.jpg",
+                    "assets/image/posters/19.jpg",
+                    "assets/image/posters/20.jpg",
+                    "assets/image/posters/21.jpg",
+                    "assets/image/posters/22.jpg",
+                    "assets/image/posters/23.jpg",
+                    "assets/image/posters/24.jpg",
+                    "assets/image/posters/25.jpg",
+                    "assets/image/posters/26.jpg",
+                    "assets/image/posters/27.jpg",
+                    "assets/image/posters/28.jpg",
+                    "assets/image/posters/29.jpg",
+                    "assets/image/posters/30.jpg",
+                    "assets/image/posters/31.jpg",
+                    "assets/image/posters/32.jpg",
+                    "assets/image/posters/33.jpg",
+                    "assets/image/posters/34.jpg",
+                    "assets/image/posters/35.jpg",
+                    "assets/image/posters/36.jpg",
+                    "assets/image/posters/37.jpg",
+                    "assets/image/posters/38.jpg",
+                    "assets/image/posters/39.jpg",
+                    "assets/image/posters/40.jpg",
+                    "assets/image/posters/41.jpg",
+                    "assets/image/posters/42.jpg",
+                    "assets/image/posters/43.jpg",
+                    "assets/image/posters/44.jpg",
+                    "assets/image/posters/45.jpg"
+                    ],
+                "isSelectionEnabled": false,
+                "cameraFov": 70,
+                "cameraPosition": [0, 0, 1700],
+                "stride": 1,
+                "cameraTargetPoint": [0, 0, 0],
+                "boundingBoxSize": [344, 464, 0],
+                "linearScrollingVector": [-200, -50, 0]
+            }
+        },
+        "panel": {
+            "prototype": "../image.reel",
+            "properties": {
+                "element": {"#": "panel"}
+            },
+            "bindings": {
+                "src": {
+                    "boundObject": {"@": "flow"},
+                    "boundObjectPropertyPath": "objectAtCurrentIteration",
+                    "oneway": true
+                }
+            }
+        }
+    }
+    </script>
+</head>
+<body>
+    <div data-montage-id="main" class="Main">
+        <div data-montage-id="flow" class="flow-Ribbon">
+            <div data-montage-id="panel" class="panel"></div>
+        </div>
+        <div class="logo"></div>
+    </div>
+</body>
+</html>
